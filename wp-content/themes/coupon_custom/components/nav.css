@@ -1,0 +1,10 @@
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none; }
+  .nav__list li {
+    margin-right: 40px; }
+  .nav__list a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none; }

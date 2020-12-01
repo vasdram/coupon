@@ -1,0 +1,33 @@
+.post__select {
+  width: 100%;
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px 20px;
+  outline: none;
+  margin-bottom: 80px; }
+
+.post__list {
+  border-bottom: 1px solid #ccc; }
+
+.post__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #ccc; }
+  .post__item-photo {
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+  .post__item-text {
+    width: calc(100% - 160px); }
+  .post__item-head {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .post__item-date {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-bottom: 20px; }
+  .post__item-autor {
+    font-size: 14px; }

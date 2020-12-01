@@ -1,0 +1,8 @@
+.main {
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

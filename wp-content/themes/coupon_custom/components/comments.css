@@ -1,0 +1,32 @@
+.comments {
+  margin-bottom: 60px; }
+  .comments__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0; }
+  .comments__item {
+    width: 48%;
+    height: 300px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1); }
+    .comments__item-name {
+      margin-bottom: 20px; }
+    .comments__item-username {
+      font-weight: 700;
+      margin-right: 20px; }
+    .comments__item-date {
+      margin-right: 20px; }
+    .comments__item-avatar {
+      width: 70px;
+      height: 80px;
+      border: 1px solid #000; }
+    .comments__item-text {
+      width: 200px;
+      font-size: 14px;
+      line-height: 1.6; }
